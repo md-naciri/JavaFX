@@ -1,0 +1,33 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-padding: 10px;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-pref-width: 150px;
+    -fx-padding: 5px;
+}
+
+.button {
+    -fx-background-color: #2a9d8f;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 15px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #21867a;
+}
+
+.list-view {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-pref-height: 200px;
+}

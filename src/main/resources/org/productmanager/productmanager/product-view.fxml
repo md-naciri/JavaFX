@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.productmanager.productmanager.ProductController">
+
+    <top>
+        <HBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label text="Nom:"/>
+            <TextField fx:id="textFieldNom"/>
+            <Label text="Prix (MAD):"/>
+            <TextField fx:id="textFieldPrix"/>
+            <Button text="Ajouter" onAction="#addProduct"/>
+            <Button text="Supprimer" onAction="#deleteProduct"/>
+        </HBox>
+
+    </top>
+
+    <center>
+        <ListView fx:id="listView"/>
+    </center>
+
+</BorderPane>
